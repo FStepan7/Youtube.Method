@@ -5,16 +5,27 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Youtube Method</title>
+    <style>
+    body {
+  padding: 25px;
+  background-color: white;
+  color: black;
+  font-size: 25px;
+}
 
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+</style>
 </head>
 
 <body>
  <center>
 
-
     
     <h2> <span style="color:red; font-weight:bold; ">Youtube Method</span> </h2>
-    <h1>Sign up For a YT shorts Course (free for now)</h1>
+    <h1>Sign up For a YT shorts Course</h1>
     <h6>(no password needed)</h6>
 
     
@@ -49,12 +60,21 @@
 
     
   </form>
-   
-  <h3>After signing up, Ill personally Send You The Course to your Email.
-
+   <hr>
+  <h3>
+      Once Signed-up Ill Personally Email You A QR Code Payment Method (4 USD)
   <br><br><br><br>
 
    Youtube Channel: <a href="https://www.youtube.com/@reallifemotivation3">@reallifemotivation3</a> </h3>
+
+       <button onclick="myFunction()">Toggle dark mode</button>
+
+    <script>
+     function myFunction() {
+      var element = document.body;
+      element.classList.toggle("dark-mode");
+}
+    </script>
   </center>
  </body>
 </html>
